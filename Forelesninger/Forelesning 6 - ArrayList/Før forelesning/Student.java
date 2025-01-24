@@ -5,6 +5,7 @@ public class Student {
     private String lastName;
     private int age;
     private String studentId;
+    private Course favoriteCourse;
 
     public Student() {
 
@@ -15,6 +16,14 @@ public class Student {
         this.lastName = lastName;
         this.age = age;
         this.studentId = studentId;
+    }
+
+    public Course getFavoriteCourse() {
+        return favoriteCourse;
+    }
+
+    public void setFavoriteCourse(Course favoriteCourse) {
+        this.favoriteCourse = favoriteCourse;
     }
 
     public String getFirstName() {
