@@ -13,7 +13,5 @@ public class Main {
         superHeroes.add(wolverine);
         superHeroes.add(wonderWoman);
 
-        File csvFile = new File("superheroes.csv");
-
     }
 }
