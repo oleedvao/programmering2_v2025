@@ -1,0 +1,26 @@
+[ {
+  "name" : "Batman",
+  "secretIdentity" : "Bruce Wayne",
+  "sidekicks" : [ {
+    "name" : "Robin",
+    "secretIdentity" : "Jason Todd",
+    "sidekicks" : [ ],
+    "firstAppearance" : null
+  }, {
+    "name" : "Batgirl",
+    "secretIdentity" : "Barbara Gordon",
+    "sidekicks" : [ ],
+    "firstAppearance" : null
+  } ],
+  "firstAppearance" : [ 1939, 3, 30 ]
+}, {
+  "name" : "Wolverine",
+  "secretIdentity" : "Logan",
+  "sidekicks" : [ ],
+  "firstAppearance" : [ 1974, 9, 1 ]
+}, {
+  "name" : "Wonder Woman",
+  "secretIdentity" : "Diana Prince",
+  "sidekicks" : [ ],
+  "firstAppearance" : [ 1941, 10, 21 ]
+} ]
