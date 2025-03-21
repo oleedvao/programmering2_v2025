@@ -1,0 +1,23 @@
+<html>
+<head>
+    <meta charset="utf8">
+    <script src="/webjars/vue/3.4.34/dist/vue.global.prod.js"></script>
+    <script>
+        const app = Vue.createApp({});
+    </script>
+    @componentRegistration
+</head>
+<body>
+<main id="main-vue" v-cloak>
+    @routeComponent
+</main>
+<script>
+    app.mount("#main-vue");
+</script>
+<style>
+    body{
+        max-width: 1800px;
+    }
+</style>
+</body>
+</html>
